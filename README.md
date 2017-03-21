@@ -9,6 +9,8 @@ make dydama
 ```
 Prerequisite is the GNU compiler `gcc-6`. Make according adjustments to the `Makefile` if you want to use another compiler.
 
+Another requirement is the c-library `<SDL2/SDL.h>`, for real-time graphics.
+
 ### Side note
 
 If the code crashes and gives a `bus error: 10`, the non-main pthread stack size might be too small.
